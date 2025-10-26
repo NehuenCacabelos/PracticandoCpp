@@ -14,7 +14,7 @@ public:
 
 	void setMateria(string);
 
-	string getMateria()const { return this->materia; }
+	string getMateria()const;
 
 	void MostrarDatos()const override;
 };

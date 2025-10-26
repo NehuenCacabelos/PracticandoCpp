@@ -129,6 +129,8 @@
     <ClCompile Include="Figura.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="Practica Parcial.cpp" />
+    <ClCompile Include="Rectangulo.cpp" />
+    <ClCompile Include="Triangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Deportista.h" />
@@ -136,6 +138,8 @@
     <ClInclude Include="Estudiante.h" />
     <ClInclude Include="Figura.h" />
     <ClInclude Include="Persona.h" />
+    <ClInclude Include="Rectangulo.h" />
+    <ClInclude Include="Triangulo.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

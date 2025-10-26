@@ -27,20 +27,26 @@
     <ClCompile Include="Practica Parcial.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Persona.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Figura.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Figura</Filter>
     </ClCompile>
-    <ClCompile Include="Deportista.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="Triangulo.cpp">
+      <Filter>Figura</Filter>
     </ClCompile>
-    <ClCompile Include="Estudiante.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="Rectangulo.cpp">
+      <Filter>Figura</Filter>
     </ClCompile>
     <ClCompile Include="Docente.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Persona</Filter>
+    </ClCompile>
+    <ClCompile Include="Estudiante.cpp">
+      <Filter>Persona</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Persona</Filter>
+    </ClCompile>
+    <ClCompile Include="Deportista.cpp">
+      <Filter>Deportista</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +64,12 @@
     </ClInclude>
     <ClInclude Include="Docente.h">
       <Filter>Persona</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangulo.h">
+      <Filter>Figura</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

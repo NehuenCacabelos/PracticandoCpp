@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Persona.h"
 #include "figura.h"
+#include "Rectangulo.h"
 using namespace std;
 
 
@@ -15,12 +16,20 @@ int main()
     p2->MostrarDatos();
     delete p2; */ 
 
-    // --- Ejercicio 40 ---
+    
+    /* // --- Ejercicio 40 ---
     Figura f1 = Figura(25, 35);
     Figura* f2 = new Figura(15, 25);
     f1.MostrarDatos();
-    f2->MostrarDatos();
+    f2->MostrarDatos(); 
     delete f2;
+                                    Deja de funcionar ya que los metodos son solo visibles desde las clases.
+    Rectangulo r1(10, 5);
+    r1.setBase(20);
+    float b = r1.getBase();
+    r1.MostrarDatos(); */
+
+
 }
 
 
