@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-class Deportista
+class Deportista 
 {
 private:
 	float peso;
@@ -25,6 +25,6 @@ public:
 	string getClase() const;
 	string getNombre() const;
 
-	void MostrarDatos()const;
+	virtual void MostrarDatos()const = 0;
 };
 

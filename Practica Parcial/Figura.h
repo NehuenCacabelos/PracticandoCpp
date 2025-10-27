@@ -21,4 +21,7 @@ public:
 
 	float getBase()const;
 	float getAltura() const;
+
+
+
 };

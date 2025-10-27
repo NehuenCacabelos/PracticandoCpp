@@ -48,6 +48,18 @@
     <ClCompile Include="Deportista.cpp">
       <Filter>Deportista</Filter>
     </ClCompile>
+    <ClCompile Include="Ciclista.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Nadador.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Triatleta.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Maratonista.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Persona.h">
@@ -70,6 +82,18 @@
     </ClInclude>
     <ClInclude Include="Rectangulo.h">
       <Filter>Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Ciclista.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Nadador.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Triatleta.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Maratonista.h">
+      <Filter>Deportista</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

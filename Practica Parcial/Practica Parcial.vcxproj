@@ -123,23 +123,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ciclista.cpp" />
     <ClCompile Include="Deportista.cpp" />
     <ClCompile Include="Docente.cpp" />
     <ClCompile Include="Estudiante.cpp" />
     <ClCompile Include="Figura.cpp" />
+    <ClCompile Include="Maratonista.cpp" />
+    <ClCompile Include="Nadador.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="Practica Parcial.cpp" />
     <ClCompile Include="Rectangulo.cpp" />
     <ClCompile Include="Triangulo.cpp" />
+    <ClCompile Include="Triatleta.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ciclista.h" />
     <ClInclude Include="Deportista.h" />
     <ClInclude Include="Docente.h" />
     <ClInclude Include="Estudiante.h" />
     <ClInclude Include="Figura.h" />
+    <ClInclude Include="Maratonista.h" />
+    <ClInclude Include="Nadador.h" />
     <ClInclude Include="Persona.h" />
     <ClInclude Include="Rectangulo.h" />
     <ClInclude Include="Triangulo.h" />
+    <ClInclude Include="Triatleta.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
