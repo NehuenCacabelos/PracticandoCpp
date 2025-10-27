@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Persona">
+      <UniqueIdentifier>{cf6d4fc7-3c79-43df-a4c8-660f765adea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Figura">
+      <UniqueIdentifier>{7769e67c-a8a6-49b7-af92-6838b4e636d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deportista">
+      <UniqueIdentifier>{207d0f9d-091c-4683-80e2-8ac5e63ae763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Practica Parcial.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura.cpp">
+      <Filter>Figura</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulo.cpp">
+      <Filter>Figura</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangulo.cpp">
+      <Filter>Figura</Filter>
+    </ClCompile>
+    <ClCompile Include="Docente.cpp">
+      <Filter>Persona</Filter>
+    </ClCompile>
+    <ClCompile Include="Estudiante.cpp">
+      <Filter>Persona</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Persona</Filter>
+    </ClCompile>
+    <ClCompile Include="Deportista.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Ciclista.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Nadador.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Triatleta.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+    <ClCompile Include="Maratonista.cpp">
+      <Filter>Deportista</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Persona.h">
+      <Filter>Persona</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura.h">
+      <Filter>Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Deportista.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Estudiante.h">
+      <Filter>Persona</Filter>
+    </ClInclude>
+    <ClInclude Include="Docente.h">
+      <Filter>Persona</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangulo.h">
+      <Filter>Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Ciclista.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Nadador.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Triatleta.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+    <ClInclude Include="Maratonista.h">
+      <Filter>Deportista</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
