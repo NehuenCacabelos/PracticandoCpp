@@ -19,6 +19,10 @@ public:
 	int getCant()const;
 
 	void MostrarDatos()const override;
+	void ModificarDatos(string);
+	void ModificarDatos(float, int);
+	void ModificarDatos(float, int, string);
+
 };
 
 

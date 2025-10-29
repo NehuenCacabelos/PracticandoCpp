@@ -13,3 +13,16 @@ void Triatleta::MostrarDatos() const {
 	Maratonista::MostrarDatos();
 	cout << "Cantidad de medallas: " << getCant() << endl;
 }
+
+void Triatleta::ModificarDatos(string n) {
+	this->setNombre(n);
+}
+void Triatleta::ModificarDatos(float p, int a) {
+	this->setPeso(p);
+	this->setAltura(a);
+}
+void Triatleta::ModificarDatos(float p, int a, string n) {
+	this->setPeso(p);
+	this->setAltura(a);
+	this->setNombre(n);
+}

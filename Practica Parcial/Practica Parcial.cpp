@@ -2,6 +2,9 @@
 #include "Persona.h"
 #include "figura.h"
 #include "Rectangulo.h"
+#include "Estudiante.h"
+#include "Docente.h"
+#include "Triangulo.h"
 using namespace std;
 
 
@@ -29,6 +32,24 @@ int main()
     float b = r1.getBase();
     r1.MostrarDatos(); */
 
+
+    /* --- Ejercicio 45--- 
+    Persona* p1 = new Estudiante("Juan", "Carlos", 25, "Sistemas");
+    Persona* p2 = new Docente("Marco", "Antonio", 67, "Algoritmos II");
+
+    p1->MostrarDatos();
+    p2->MostrarDatos();
+    delete p1;
+    delete p2;  */
+
+    /*---Ejercicio 46---
+    Triangulo t1(25, 30);
+    Triangulo t2(15, 19);
+
+    Rectangulo r1 = t1 + t2;
+    r1.MostrarDatos(); */ 
+
+   
 
 }
 

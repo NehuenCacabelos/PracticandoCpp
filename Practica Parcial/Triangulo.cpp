@@ -15,3 +15,11 @@ float Triangulo::CalcularPerimetro()const {
 	return hipotenusa + a + b;
 }
 
+Rectangulo Triangulo::operator+(const Triangulo& t)const {
+	float nuevaBase = (this->getBase() + t.getBase()) / 2.0f;
+	float nuevaAltura = (this->getAltura() + t.getAltura()) / 2.0f;
+
+	Rectangulo nuevoRectangulo (nuevaBase, nuevaAltura);
+
+	return nuevoRectangulo;
+}

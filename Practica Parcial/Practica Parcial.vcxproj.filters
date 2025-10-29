@@ -22,6 +22,9 @@
     <Filter Include="Deportista">
       <UniqueIdentifier>{207d0f9d-091c-4683-80e2-8ac5e63ae763}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Complejos">
+      <UniqueIdentifier>{9b68831a-e9c0-47fc-9718-db5493b989d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practica Parcial.cpp">

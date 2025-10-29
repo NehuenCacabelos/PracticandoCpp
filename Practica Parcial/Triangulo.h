@@ -1,5 +1,6 @@
 #pragma once
 #include "Figura.h"
+#include "Rectangulo.h"
 #include <math.h>
 using namespace std;
 
@@ -11,5 +12,7 @@ public:
 
 	float CalcularSuperficie()const;
 	float CalcularPerimetro()const;
+	
+	Rectangulo operator+ (const Triangulo & t)const;
 };
 
