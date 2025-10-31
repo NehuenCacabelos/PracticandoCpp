@@ -9,8 +9,8 @@ public:
 	Rectangulo(float, float);
 	~Rectangulo();
 
-	float CalcularPerimetro()const;
-	float CalcularSuperficie()const;
+	float CalcularPerimetro()const override;
+	float CalcularSuperficie()const override;
 };
 
 

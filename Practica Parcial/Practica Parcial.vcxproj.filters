@@ -25,6 +25,9 @@
     <Filter Include="Complejos">
       <UniqueIdentifier>{9b68831a-e9c0-47fc-9718-db5493b989d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Punto">
+      <UniqueIdentifier>{5477469e-cdb6-43c8-93de-95bdd89d70ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practica Parcial.cpp">
@@ -64,7 +67,10 @@
       <Filter>Deportista</Filter>
     </ClCompile>
     <ClCompile Include="Complejo.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Complejos</Filter>
+    </ClCompile>
+    <ClCompile Include="Punto.cpp">
+      <Filter>Punto</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,7 +108,10 @@
       <Filter>Deportista</Filter>
     </ClInclude>
     <ClInclude Include="Complejo.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Complejos</Filter>
+    </ClInclude>
+    <ClInclude Include="Punto.h">
+      <Filter>Punto</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

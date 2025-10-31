@@ -5,6 +5,7 @@
 #include "Estudiante.h"
 #include "Docente.h"
 #include "Triangulo.h"
+#include "Triatleta.h"
 using namespace std;
 
 
@@ -12,7 +13,8 @@ int main()
 {
 
     // --- Ejercicio 39 ---
-    /* Persona p1 = Persona("Nehuen", "Cacabelos", 24);
+    /* 
+    Persona p1 = Persona("Nehuen", "Cacabelos", 24);
     Persona *p2 = new Persona("Mailen", "Delfabro", 25);
 
     p1.MostrarDatos();
@@ -49,6 +51,11 @@ int main()
     Rectangulo r1 = t1 + t2;
     r1.MostrarDatos(); */ 
 
+
+	/* --- Ejercicio 52 --- 
+	Triatleta t1(75.5, 180, "Triatleta", "Nehuen", "Giant", "Crol", "Nike", 10);
+	Nadador n1(70.0, 175, "Nadador", "Carlos", "Mariposa");
+	CompararPeso(t1, n1); */
    
 
 }

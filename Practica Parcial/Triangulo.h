@@ -10,8 +10,8 @@ public:
 	Triangulo(float, float);
 	~Triangulo();
 
-	float CalcularSuperficie()const;
-	float CalcularPerimetro()const;
+	float CalcularSuperficie()const override;
+	float CalcularPerimetro()const override;
 	
 	Rectangulo operator+ (const Triangulo & t)const;
 };

@@ -21,6 +21,6 @@ public:
 	string getApellido() const;
 	int getEdad() const;
 
-	virtual void MostrarDatos() const;
+	virtual void MostrarDatos() const = 0;
 };
 

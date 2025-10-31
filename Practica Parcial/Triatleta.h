@@ -11,17 +11,22 @@ class Triatleta : virtual public Ciclista, virtual public Nadador, virtual publi
 {
 private:
 	int cantMedallas;
+	static int contadorTriatletas;
 public:
 	Triatleta(float, int, string, string, string, string,string, int);
 	~Triatleta();
 
 	void setCant(int cant);
 	int getCant()const;
+	static int getContadorTriatletas();
 
 	void MostrarDatos()const override;
 	void ModificarDatos(string);
 	void ModificarDatos(float, int);
 	void ModificarDatos(float, int, string);
+
+	friend void CompararPeso(const Deportista& D1, const Deportista& D2);
+
 
 };
 

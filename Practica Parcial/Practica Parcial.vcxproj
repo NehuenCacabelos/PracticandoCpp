@@ -133,6 +133,7 @@
     <ClCompile Include="Nadador.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="Practica Parcial.cpp" />
+    <ClCompile Include="Punto.cpp" />
     <ClCompile Include="Rectangulo.cpp" />
     <ClCompile Include="Triangulo.cpp" />
     <ClCompile Include="Triatleta.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="Maratonista.h" />
     <ClInclude Include="Nadador.h" />
     <ClInclude Include="Persona.h" />
+    <ClInclude Include="Punto.h" />
     <ClInclude Include="Rectangulo.h" />
     <ClInclude Include="Triangulo.h" />
     <ClInclude Include="Triatleta.h" />

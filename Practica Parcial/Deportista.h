@@ -26,5 +26,7 @@ public:
 	string getNombre() const;
 
 	virtual void MostrarDatos()const = 0;
+
+	friend void CompararPeso(const Deportista& D1, const Deportista& D2);
 };
 

@@ -13,4 +13,7 @@ public:
 	string getSponsor() const;
 
 	void MostrarDatos()const override;
+
+	friend void CompararPeso(const Deportista& D1, const Deportista& D2);
+
 };

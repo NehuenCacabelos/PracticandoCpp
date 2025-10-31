@@ -12,5 +12,8 @@ public:
 	void setMarca(string m);
 	string getMarca()const;
 
+	friend void CompararPeso(const Deportista& D1, const Deportista& D2);
+
+
 };
 
